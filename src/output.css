@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-50: oklch(98.7% 0.022 95.277);
+    --color-amber-300: oklch(87.9% 0.169 91.605);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-2xl: 1.5rem;
@@ -342,6 +343,9 @@
   .w-\[164px\] {
     width: 164px;
   }
+  .w-\[167px\] {
+    width: 167px;
+  }
   .w-\[200px\] {
     width: 200px;
   }
@@ -456,6 +460,9 @@
   .gap-\[40px\] {
     gap: 40px;
   }
+  .gap-\[50px\] {
+    gap: 50px;
+  }
   .space-x-0 {
     :where(& > :not(:last-child)) {
       --tw-space-x-reverse: 0;
@@ -503,6 +510,9 @@
   .rounded-\[35px\] {
     border-radius: 35px;
   }
+  .rounded-\[50px\] {
+    border-radius: 50px;
+  }
   .rounded-\[280px\] {
     border-radius: 280px;
   }
@@ -542,11 +552,17 @@
   .bg-\[\#24AB701A\] {
     background-color: #24AB701A;
   }
+  .bg-\[\#F4FBF8\] {
+    background-color: #F4FBF8;
+  }
   .bg-\[\#FAFAFA\] {
     background-color: #FAFAFA;
   }
   .bg-\[\#\] {
     background-color: #;
+  }
+  .bg-\[F4FBF8\] {
+    background-color: F4FBF8;
   }
   .bg-\[amber-50\] {
     background-color: amber-50;
@@ -556,6 +572,9 @@
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
+  }
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -707,9 +726,24 @@
       display: none;
     }
   }
+  .lg\:h-\[53px\] {
+    @media (width >= 64rem) {
+      height: 53px;
+    }
+  }
+  .lg\:h-\[56px\] {
+    @media (width >= 64rem) {
+      height: 56px;
+    }
+  }
   .lg\:h-\[193px\] {
     @media (width >= 64rem) {
       height: 193px;
+    }
+  }
+  .lg\:h-\[520px\] {
+    @media (width >= 64rem) {
+      height: 520px;
     }
   }
   .lg\:h-\[656\] {
@@ -730,6 +764,11 @@
   .lg\:w-\[411px\] {
     @media (width >= 64rem) {
       width: 411px;
+    }
+  }
+  .lg\:w-\[628px\] {
+    @media (width >= 64rem) {
+      width: 628px;
     }
   }
   .lg\:w-\[640px\] {
@@ -777,6 +816,11 @@
       justify-content: space-between;
     }
   }
+  .lg\:gap-\[5\] {
+    @media (width >= 64rem) {
+      gap: 5;
+    }
+  }
   .lg\:gap-\[40\] {
     @media (width >= 64rem) {
       gap: 40;
@@ -785,6 +829,11 @@
   .lg\:gap-\[40px\] {
     @media (width >= 64rem) {
       gap: 40px;
+    }
+  }
+  .lg\:gap-\[50px\] {
+    @media (width >= 64rem) {
+      gap: 50px;
     }
   }
   .lg\:border {
